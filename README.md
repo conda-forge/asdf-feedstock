@@ -17,9 +17,7 @@ data. asdf is an Astropy affiliated package.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/asdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asdf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/asdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/asdf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/asdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/asdf-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/asdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asdf-feedstock)
 
 Current release info
 ====================
