@@ -17,12 +17,15 @@ data. asdf is an Astropy affiliated package.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/asdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/asdf-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/asdf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/asdf-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asdf/badges/version.svg)](https://anaconda.org/conda-forge/asdf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/asdf/badges/downloads.svg)](https://anaconda.org/conda-forge/asdf)
+[![Conda Recipe](https://img.shields.io/badge/recipe-asdf-green.svg)](https://anaconda.org/conda-forge/asdf)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/asdf.svg)](https://anaconda.org/conda-forge/asdf)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/asdf.svg)](https://anaconda.org/conda-forge/asdf)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/asdf.svg)](https://anaconda.org/conda-forge/asdf)
 
 Installing asdf
 ===============
