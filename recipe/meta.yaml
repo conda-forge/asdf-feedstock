@@ -1,7 +1,7 @@
 {% set name = "asdf" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "f53c50da83fa82365411f2d372ea43c407ebaf954da49b71a476c2429b2fa3d9" %}
+{% set hash_value = "5c5f726a2de38431cac6031d9e771b198e9e5c31e978ef34c70d9de30ddf2d4c" %}
 package:
   name: '{{ name|lower }}'
   version: '{{ version }}'
