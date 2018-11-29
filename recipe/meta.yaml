@@ -39,7 +39,6 @@ test:
     - asdf.extern
     - asdf.tags
     - asdf.tags.core
-    - asdf.tags.wcs
   commands:
     - asdftool --help
 
