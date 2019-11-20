@@ -19,14 +19,12 @@ build:
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
+    - pip
     - python >=3.3
     - setuptools
     - setuptools_scm
     - six >=1.9.0
-  host:
-    - pip
-    - python >=3.3
   run:
     - python >=3.3
     - pyyaml >=3.10
