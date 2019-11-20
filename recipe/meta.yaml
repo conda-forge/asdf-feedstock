@@ -26,6 +26,7 @@ requirements:
     - six >=1.9.0
   host:
     - pip
+    - python >=3.3
   run:
     - python >=3.3
     - pyyaml >=3.10
