@@ -1,7 +1,7 @@
 {% set name = "asdf" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "81dbabf6b5c759be90a3c034f94d1561446056864b2a10c585248af6374aba44" %}
+{% set hash_value = "1e85178ba228976ed96869322bab9410dc87eeb71b0e5c1d6601ab4685a1252a" %}
 package:
   name: '{{ name|lower }}'
   version: '{{ version }}'
@@ -24,12 +24,10 @@ requirements:
     - python >=3.3
     - setuptools
     - setuptools_scm
-    - six >=1.9.0
   run:
     - python >=3.3
     - pyyaml >=3.10
     - jsonschema >=2.3.0
-    - six >=1.9.0
     - pytest >=2.7.2
     - numpy >=1.8
     - semantic_version >=2.8
