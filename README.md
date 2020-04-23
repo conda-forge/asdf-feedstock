@@ -120,7 +120,7 @@ Feedstock Maintainers
 =====================
 
 * [@bsipocz](https://github.com/bsipocz/)
-* [@drdavella](https://github.com/drdavella/)
+* [@eslavich](https://github.com/eslavich/)
 * [@jhunkeler](https://github.com/jhunkeler/)
 * [@mwcraig](https://github.com/mwcraig/)
 
