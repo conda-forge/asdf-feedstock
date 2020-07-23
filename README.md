@@ -1,13 +1,13 @@
 About asdf
 ==========
 
-Home: http://github.com/spacetelescope/asdf
+Home: http://github.com/asdf-format/asdf
 
 Package license: BSD 3-clause
 
 Feedstock license: BSD-3-Clause
 
-Summary: Python tools to handle ASDF files
+Summary: Python implementation of the ASDF Standard
 
 Python library for reading and writing ASDF files. The Advanced Scientific
 Data Format (ASDF) is a next generation interchange format for scientific
@@ -123,4 +123,3 @@ Feedstock Maintainers
 * [@eslavich](https://github.com/eslavich/)
 * [@jhunkeler](https://github.com/jhunkeler/)
 * [@mwcraig](https://github.com/mwcraig/)
-

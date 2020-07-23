@@ -19,15 +19,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.3
+    - python >=3.5
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.3
+    - python >=3.5
     - pyyaml >=3.10
-    - jsonschema >=2.3.0
+    - jsonschema >=3.0.2
     - pytest >=2.7.2
-    - numpy >=1.8
+    - numpy >=1.10
     - semantic_version >=2.8
 
 test:
@@ -41,17 +41,17 @@ test:
     - asdftool --help
 
 about:
-  home: http://github.com/spacetelescope/asdf
+  home: http://github.com/asdf-format/asdf
   license: BSD 3-clause
   license_family: BSD
   license_file: licenses/LICENSE.rst
-  summary: Python tools to handle ASDF files
+  summary: Python implementation of the ASDF Standard
   description: |
     Python library for reading and writing ASDF files. The Advanced Scientific
     Data Format (ASDF) is a next generation interchange format for scientific
     data.
   doc_url: http://asdf.readthedocs.io/
-  dev_url: http://github.com/spacetelescope/asdf
+  dev_url: http://github.com/asdf-format/asdf
 
 extra:
   recipe-maintainers:
