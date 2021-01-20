@@ -3,11 +3,15 @@ About asdf
 
 Home: http://github.com/asdf-format/asdf
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asdf-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python implementation of the ASDF Standard
+
+Development: http://github.com/asdf-format/asdf
+
+Documentation: http://asdf.readthedocs.io/
 
 Python library for reading and writing ASDF files. The Advanced Scientific
 Data Format (ASDF) is a next generation interchange format for scientific
