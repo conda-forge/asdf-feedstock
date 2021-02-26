@@ -1,5 +1,5 @@
 {% set name = "asdf" %}
-{% set version = "2.7.2" %}
+{% set version = "2.7.3" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -7,7 +7,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: effbef17f822cf64cfed2075e6c6a258ee0ca8abaa8c286ae52882d426fc87f8
+  sha256: f7ea14e4df23ec5d94a9c1f2ed743526f7c4df3c9253ebd915b5585e92c8be85
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=3.6
     - pyyaml >=3.10
-    - jsonschema >=3.0.2
+    - jsonschema >=3.0.2,<4
     - numpy >=1.10
     - semantic_version >=2.8
     - importlib_resources >=3
@@ -34,6 +34,10 @@ requirements:
 test:
   requires:
     - pytest <6
+    - astropy
+    - gwcs
+    - pytest-astropy
+    - psutil
   imports:
     - asdf
     - asdf.commands
