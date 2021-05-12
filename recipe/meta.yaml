@@ -1,5 +1,5 @@
 {% set name = "asdf" %}
-{% set version = "2.7.3" %}
+{% set version = "2.7.4" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -7,7 +7,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7ea14e4df23ec5d94a9c1f2ed743526f7c4df3c9253ebd915b5585e92c8be85
+  sha256: 86e90c2e2f7871ad190d25700f0ee97ea288f79553c9c7148e705d54051545d6
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=3.6
     - pyyaml >=3.10
-    - jsonschema >=3.0.2,<4
+    - Jsonschema >=3.0.2,<4
     - numpy >=1.10
     - semantic_version >=2.8
     - importlib_resources >=3
@@ -51,7 +51,7 @@ about:
   home: http://github.com/asdf-format/asdf
   license: BSD-3-Clause
   license_family: BSD
-  license_file: licenses/LICENSE.rst
+  license_file: LICENSE
   summary: Python implementation of the ASDF Standard
   description: |
     Python library for reading and writing ASDF files. The Advanced Scientific
