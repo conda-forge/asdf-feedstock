@@ -25,6 +25,7 @@ requirements:
   run:
     - python >=3.6
     - pyyaml >=3.10
+    - jmespath >=0.6.2
     - Jsonschema >=3.0.2,<4
     - numpy >=1.10
     - semantic_version >=2.8
@@ -36,7 +37,9 @@ test:
     - pytest <6
     - astropy
     - gwcs
-    - pytest-astropy
+    - pytest-doctestplus
+    - pytest-remotedata
+    - pytest-openfiles
     - psutil
   imports:
     - asdf
