@@ -34,7 +34,7 @@ requirements:
 
 test:
   requires:
-    - pytest <6
+    - pytest
     - astropy
     - gwcs
     - pytest-doctestplus
