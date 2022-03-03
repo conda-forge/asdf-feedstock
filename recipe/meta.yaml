@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - asdftool = asdf.commands.main:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -23,7 +23,7 @@ requirements:
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.6
+    - python >=3.7
     - pyyaml >=3.10
     - jmespath >=0.6.2
     - Jsonschema >=3.0.2,<4
@@ -31,6 +31,8 @@ requirements:
     - semantic_version >=2.8
     - importlib_resources >=3
     - packaging >=16.0
+    - asdf-standard >=1.0.1
+    - asdf-transform-schemas >=0.2.2 
 
 test:
   requires:
