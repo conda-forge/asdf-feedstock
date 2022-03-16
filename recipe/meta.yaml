@@ -1,5 +1,5 @@
 {% set name = "asdf" %}
-{% set version = "2.10.1" %}
+{% set version = "2.11.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -7,11 +7,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7e569f29b3723939efec8164eb2ed7274bdd480b0b283d75833f0f59d108409
+  sha256: 14459719292779dba13bdf98973ad9be924752c23b4de6a054bc0174c10846fc
 
 build:
   noarch: python
-  number: 1
+  number: 0
   entry_points:
     - asdftool = asdf.commands.main:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -32,7 +32,7 @@ requirements:
     - importlib_resources >=3
     - packaging >=16.0
     - asdf-standard >=1.0.1
-    - asdf-transform-schemas >=0.2.2 
+    - asdf-transform-schemas >=0.2.2
 
 test:
   requires:
