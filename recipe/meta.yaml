@@ -19,11 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >=3.8
     - pyyaml >=3.10
     - jmespath >=0.6.2
     - jsonschema >=4.0.1
@@ -37,7 +37,7 @@ requirements:
 test:
   requires:
     - pytest
-    - astropy
+    - astropy >=5.0.2
     - gwcs
     - pytest-doctestplus
     - pytest-remotedata
