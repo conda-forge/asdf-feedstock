@@ -37,7 +37,7 @@ requirements:
 test:
   requires:
     - pytest
-    - astropy >=5.0.2
+    - astropy >=5.0.4
     - gwcs
     - pytest-doctestplus
     - pytest-remotedata
