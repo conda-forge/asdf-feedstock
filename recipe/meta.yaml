@@ -1,5 +1,5 @@
 {% set name = "asdf" %}
-{% set version = "2.12.0" %}
+{% set version = "2.12.1" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -7,7 +7,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5914834d077ba3bf68b9aafdc646b9f27ce5e56e1c241167d461dee43b1023e9
+  sha256: d2a5d16165ca0b5ec988bd43fa38ee195a0e18026e19b2637bb399c9dda4de8f
 
 build:
   noarch: python
