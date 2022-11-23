@@ -26,23 +26,27 @@ requirements:
     - python >=3.8
     - pyyaml >=3.10
     - jmespath >=0.6.2
-    - jsonschema >=4.0.1, <4.10.0
-    - numpy >=1.10
+    - jsonschema >=4.0.1
+    - numpy >=1.18
     - semantic_version >=2.8
     - importlib_resources >=3
+    - importlib-metadata >=3
     - packaging >=16.0
     - asdf-standard >=1.0.1
     - asdf-transform-schemas >=0.2.2
+    - asdf-unit-schemas >=0.1.0
 
 test:
   requires:
-    - pytest
+    - pytest >=6.0.0
     - astropy >=5.0.4
     - gwcs
     - pytest-doctestplus
     - pytest-remotedata
     - pytest-openfiles
     - psutil
+    - lz4 >=0.10
+    - fsspec[http] >=2022.8.2
   imports:
     - asdf
     - asdf.commands
