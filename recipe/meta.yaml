@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - asdftool = asdf.commands.main:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
