@@ -1,11 +1,11 @@
-About asdf
-==========
+About asdf-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asdf-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/asdf-format/asdf
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asdf-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python implementation of the ASDF Standard
 
