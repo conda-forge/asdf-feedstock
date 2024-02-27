@@ -40,7 +40,7 @@ test:
     - fsspec[http] >=2022.8.2
     - lz4 >=0.10
     - psutil
-    - pytest >=6.0.0
+    - pytest >=7.0.0
     - pytest-doctestplus
     - pytest-remotedata
   imports:
