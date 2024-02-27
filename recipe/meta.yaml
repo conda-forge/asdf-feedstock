@@ -1,5 +1,5 @@
 {% set name = "asdf" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -7,7 +7,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cabadc624efab760daaa49412bdf50ab2530a8dd622089800294805ec93a53cb
+  sha256: c4907ae3242b59a2d0e363dc5fd8337d5f82d4c01b1908be1d1e305cdff04639
 
 build:
   noarch: python
@@ -40,13 +40,12 @@ test:
     - fsspec[http] >=2022.8.2
     - lz4 >=0.10
     - psutil
-    - pytest >=6.0.0
+    - pytest >=7.0.0
     - pytest-doctestplus
     - pytest-remotedata
   imports:
     - asdf
     - asdf.commands
-    - asdf.extern
     - asdf.tags
     - asdf.tags.core
   commands:
