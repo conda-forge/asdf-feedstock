@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - asdftool = asdf.commands.main:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -19,11 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - asdf-standard >=1.1.0
     - asdf-transform-schemas >=0.3.0
     - importlib-metadata >=4.11.4
@@ -41,6 +41,7 @@ test:
     - psutil
     - pytest >=8
     - pytest-remotedata
+    - python {{ python_min }}
   imports:
     - asdf
     - asdf.commands
