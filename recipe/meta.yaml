@@ -1,5 +1,5 @@
 {% set name = "asdf" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -7,11 +7,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 864da3d54fd099b7fc091a9e655e503fdf03bce5f7f88ee383d6b316bd7ef9db
+  sha256: 0ff44992c85fd768bd9a9512ab7f012afb52ddcee390e9caf67e30d404122da1
 
 build:
   noarch: python
-  number: 1
+  number: 0
   entry_points:
     - asdftool = asdf.commands.main:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
