@@ -13,7 +13,7 @@ build:
   noarch: python
   number: 0
   entry_points:
-    - asdftool = asdf.commands.main:main
+    - asdftool = asdf._commands.main:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -44,7 +44,6 @@ test:
     - python {{ python_min }}
   imports:
     - asdf
-    - asdf.commands
     - asdf.tags
     - asdf.tags.core
   commands:
