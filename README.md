@@ -17,7 +17,6 @@ Python library for reading and writing ASDF files. The Advanced Scientific
 Data Format (ASDF) is a next generation interchange format for scientific
 data.
 
-
 Current build status
 ====================
 
@@ -152,9 +151,4 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@braingram](https://github.com/braingram/)
-* [@eslavich](https://github.com/eslavich/)
-* [@jhunkeler](https://github.com/jhunkeler/)
-* [@mwcraig](https://github.com/mwcraig/)
-* [@nden](https://github.com/nden/)
 
