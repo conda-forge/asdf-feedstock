@@ -41,6 +41,7 @@ test:
     - pytest >=8
     - pytest-remotedata
     - python {{ python_min }}
+    - syrupy >=5.1
   imports:
     - asdf
     - asdf.tags
