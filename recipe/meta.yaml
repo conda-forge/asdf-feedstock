@@ -1,13 +1,13 @@
 {% set name = "asdf" %}
-{% set version = "5.3.1" %}
+{% set version = "5.4.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c96c936cb65e75d8778d889f274f79ac90464a9ef2e7b794227dc204235fdcdf
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d4fcfe002ed35cc33bb2832f2901ad1881b2cb35fb24c471390be970b5e690f2
 
 build:
   noarch: python
